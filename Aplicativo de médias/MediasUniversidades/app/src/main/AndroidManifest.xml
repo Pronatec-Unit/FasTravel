@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="es.esy.atividadeslucas.mediasuniversidades">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ACTV_inicio"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ACTV_Sobre"
+            android:label="@string/app_sobre" />
+        <activity
+            android:name=".ACTV_Instituicoes"
+            android:label="@string/app_Instituições" />
+        <activity
+            android:name=".ACTV_Contato"
+            android:label="@string/app_contato" />
+        <activity
+            android:name=".Actv_Ufs"
+            android:label="@string/cal_UFS" />
+        <activity
+            android:name=".Actv_Unit"
+            android:label="@string/cal_Unit" />
+        <activity
+            android:name=".Actv_Fanese"
+            android:label="@string/cal_Fanese" />
+        <activity android:name=".Actv_Fama" />
+        <activity android:name=".Actv_Estacio" />
+        <activity android:name=".Actv_Ifs" />
+        <activity android:name=".Actv_Nassau" />
+        <activity android:name=".Actv_Novo" />
+        <activity android:name=".Actv_Pio"></activity>
+    </application>
+
+</manifest>

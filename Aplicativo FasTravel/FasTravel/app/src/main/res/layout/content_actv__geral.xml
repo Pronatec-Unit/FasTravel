@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_actv__geral"
+    tools:context="es.esy.fastravel.fastravel.Actv_Geral"
+    android:paddingTop="3dp"
+    android:background="#6c6002">
+
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/horizontalScrollView2"
+        android:paddingBottom="5dp"
+        android:touchscreenBlocksFocus="false"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Início"
+                android:id="@+id/btn_inicio"
+                android:textColor="#ffffff"
+                android:background="#6c6002"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="3dp"
+                android:layout_height="48dp"
+                android:id="@+id/imageView"
+                android:src="@drawable/separaver" />
+
+            <Button
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="Parceiros"
+                android:id="@+id/btn_parceiros"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:background="#6c6002" />
+
+            <ImageView
+                android:layout_width="3dp"
+                android:layout_height="48dp"
+                android:id="@+id/imageView4"
+                android:src="@drawable/separaver" />
+
+            <Button
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:text="Web"
+                android:id="@+id/btn_web"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:background="#6c6002" />
+
+            <ImageView
+                android:layout_width="3dp"
+                android:layout_height="48dp"
+                android:id="@+id/imageView2"
+                android:src="@drawable/separaver"
+                android:layout_gravity="center_vertical" />
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="Contato"
+                android:id="@+id/btn_contato"
+                android:background="#6c6002"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="3dp"
+                android:layout_height="48dp"
+                android:id="@+id/imageView3"
+                android:src="@drawable/separaver"
+                android:layout_gravity="center_vertical" />
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Sobre"
+                android:id="@+id/btn_sobre"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:background="#6c6002" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:layout_below="@+id/horizontalScrollView2"
+        android:id="@+id/frame_container"></FrameLayout>
+
+
+</RelativeLayout>

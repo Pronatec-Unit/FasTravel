@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_contato">Contato</string>
+    <string name="app_sobre">Sobre</string>
+    <string name="app_Instituições">Instituições</string>
+    <string name="app_inicio">Início</string>
+    <string name="app_name">Calculadora de média</string>
+
+
+    <!-- instituições -->
+
+    <string name="cal_UFS"> Média UFS </string>
+    <string name="cal_Unit"> Média Unit </string>
+    <string name="cal_Fanese"> Média Fanese </string>
+    <string name="cal_Facar"> Média Facar </string>
+    <string name="cal_Pio"> Média Pio </string>
+    <string name="cal_Amadeus"> Média Amadeus </string>
+    <string name="cal_Maurissio"> Média Mauríssio </string>
+
+
+    <string name="navigation_drawer_open">Menu aberto</string>
+    <string name="navigation_drawer_close">Menu fechado</string>
+
+    <string name="action_sair">Sair</string>
+    <string name="app_calculadora">Calculadora</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">O início da porra toda</string>
+    <string name="title_activity_actv__ufs">Actv_UFS</string>
+</resources>

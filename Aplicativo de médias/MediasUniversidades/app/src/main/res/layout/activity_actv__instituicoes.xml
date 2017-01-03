@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="es.esy.atividadeslucas.mediasuniversidades.ACTV_Instituicoes"
+    android:background="#0b6468">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Instituições"
+        android:id="@+id/textView6"
+        android:textSize="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#f8feff" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Selecione a instituição e nós calcularemos sua média de acordo com o peso de cada unidade."
+        android:id="@+id/textView7"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:textSize="15dp"
+        android:layout_below="@+id/textView6"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="110dp"
+        android:layout_height="120dp"
+        android:id="@+id/btn_UFS"
+        android:src="@drawable/logosufs"
+        android:onClick="Entrar_UFS"
+        android:adjustViewBounds="false"
+        android:baselineAlignBottom="false"
+        android:clickable="false"
+        android:contextClickable="false"
+        android:longClickable="false"
+        android:nestedScrollingEnabled="false"
+        android:layout_above="@+id/btn_FACAR"
+        android:layout_alignParentStart="true"
+        android:background="#0b6468" />
+
+    <ImageButton
+        android:layout_width="110dp"
+        android:layout_height="120dp"
+        android:id="@+id/btn_UNIT"
+        android:layout_above="@+id/btn_FAMA"
+        android:layout_centerHorizontal="true"
+        android:onClick="Entrar_Unit"
+        android:background="#0b6468"
+        android:src="@drawable/logosunit" />
+
+    <ImageButton
+        android:layout_width="110dp"
+        android:layout_height="120dp"
+        android:id="@+id/btn_FANESE"
+        android:layout_above="@+id/btn_ESTACIO"
+        android:layout_alignStart="@+id/btn_IFS"
+        android:onClick="Entrar_Fanese"
+        android:background="#0b6468"
+        android:src="@drawable/logosfanese" />
+
+    <ImageButton
+        android:layout_width="110dp"
+        android:layout_height="120dp"
+        android:id="@+id/btn_FACAR"
+        android:layout_above="@+id/btn_Maurissio"
+        android:layout_alignParentStart="true"
+        android:background="#0b6468"
+        android:src="@drawable/logosfama"
+        android:onClick="Entrar_Fama" />
+
+    <ImageButton
+        android:layout_width="110dp"
+        android:layout_height="120dp"
+        android:id="@+id/btn_FAMA"
+        android:layout_below="@+id/btn_UFS"
+        android:layout_alignStart="@+id/btn_UNIT"
+        android:background="#0b6468" />
+
+    <ImageButton
+        android:layout_width="110dp"
+        android:layout_height="120dp"
+        android:id="@+id/btn_ESTACIO"
+        android:background="#0b6468"
+        android:src="@drawable/logoestacio"
+        android:layout_below="@+id/btn_UNIT"
+        android:layout_alignStart="@+id/btn_FAMA"
+        android:onClick="Entrar_Estacio" />
+
+    <ImageButton
+        android:layout_width="110dp"
+        android:layout_height="120dp"
+        android:id="@+id/btn_Maurissio"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="#0b6468"
+        android:src="@drawable/logosnassau"
+        android:onClick="Entrar_Nassau" />
+
+    <ImageButton
+        android:layout_width="110dp"
+        android:layout_height="120dp"
+        android:id="@+id/btn_IFS"
+        android:background="#0b6468"
+        android:src="@drawable/logosifs"
+        android:layout_below="@+id/btn_FANESE"
+        android:layout_alignParentEnd="true"
+        android:onClick="Entrar_Ifs" />
+
+    <ImageButton
+        android:layout_width="110dp"
+        android:layout_height="120dp"
+        android:id="@+id/btMediaNormal"
+        android:background="#0b6468"
+        android:layout_alignEnd="@+id/btn_IFS"
+        android:layout_below="@+id/btn_FAMA"
+        android:layout_alignStart="@+id/btn_IFS"
+        android:foregroundTint="#ffffff"
+        android:layout_alignBottom="@+id/imageButton"
+        android:src="@drawable/mais"
+        android:onClick="Entrar_Novo" />
+
+    <ImageButton
+        android:layout_width="110dp"
+        android:layout_height="120dp"
+        android:id="@+id/imageButton"
+        android:background="#0b6468"
+        android:src="@drawable/pio"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="Entrar_pio" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView8"
+        android:src="@drawable/separador"
+        android:layout_above="@+id/btn_UFS"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

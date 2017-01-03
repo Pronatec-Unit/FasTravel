@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="es.esy.atividadeslucas.mediasuniversidades.ACTV_Sobre"
+    android:background="#0b6468">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Funcionalidade:"
+        android:id="@+id/textView8"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Esse aplicativo tem como função principal, calcular médias das instituições de ensino de acordo com o peso de cada unidade/semestre/período"
+        android:id="@+id/textView9"
+        android:layout_below="@+id/textView8"
+        android:layout_alignParentStart="true"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Versão:"
+        android:id="@+id/textView12"
+        android:layout_gravity="left|right"
+        android:layout_marginTop="54dp"
+        android:layout_below="@+id/textView9"
+        android:layout_alignParentStart="true"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="0.1"
+        android:id="@+id/textView13"
+        android:layout_gravity="left|right"
+        android:layout_alignParentStart="false"
+        android:layout_below="@+id/textView12"
+        android:layout_alignParentLeft="true"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Agradecimentos:"
+        android:id="@+id/textView14"
+        android:layout_above="@+id/textView15"
+        android:layout_alignParentStart="true"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Obrigado por utilizar meu software. Na guia &quot;Contato&quot; você poderá me mandar um feedback positivo ou negativo desse aplicativo."
+        android:id="@+id/textView15"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Desenvolvedor:"
+        android:id="@+id/textView11"
+        android:layout_gravity="center|left"
+        android:layout_marginTop="52dp"
+        android:layout_below="@+id/textView13"
+        android:layout_alignParentStart="true"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Lucas Nascimento da silva"
+        android:id="@+id/textView10"
+        android:layout_gravity="center|left"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView11"
+        android:layout_alignParentLeft="true"
+        android:textColor="#ffffff" />
+</RelativeLayout>

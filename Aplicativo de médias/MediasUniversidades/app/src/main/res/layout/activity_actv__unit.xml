@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="es.esy.atividadeslucas.mediasuniversidades.Actv_Unit"
+    android:background="#0b6468">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Calculadora de média"
+        android:id="@+id/textView16"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Primeira unidade(peso): 4"
+        android:id="@+id/textView17"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/textView16"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="42dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Segunda unidade(peso): 6"
+        android:id="@+id/textView18"
+        android:textColor="#ffffff"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView17"
+        android:layout_alignParentLeft="true" />
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/btInstituicao"
+        android:src="@drawable/logosunit"
+        android:layout_above="@+id/imageView3"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/Txt_Resultado"
+        android:layout_marginLeft="-15dp"
+        android:baselineAlignBottom="false"
+        android:clickable="false"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="-2dp"
+        android:onClick="instituicao" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Unit"
+        android:id="@+id/textView19"
+        android:layout_below="@+id/textView16"
+        android:layout_alignParentStart="true"
+        android:textColor="#ffffff"
+        android:textSize="38dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView3"
+        android:src="@drawable/separador"
+        android:layout_below="@+id/textView18"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:id="@+id/imageView4"
+        android:src="@drawable/iunidade"
+        android:layout_below="@+id/imageView3"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="5sp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:id="@+id/ednota1"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#083041"
+        android:textSize="30dp"
+        android:layout_below="@+id/imageView4"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="5dp"
+        android:background="#ffffff"
+        android:inputType="number|numberSigned|numberDecimal" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:id="@+id/imageView6"
+        android:src="@drawable/iiunidade"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/ednota1"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="15dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:id="@+id/ednota2"
+        android:textColor="#083041"
+        android:textSize="30dp"
+        android:layout_below="@+id/imageView6"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:background="#ffffff"
+        android:layout_marginTop="5dp"
+        android:inputType="number|numberSigned|numberDecimal" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView5"
+        android:src="@drawable/separador"
+        android:layout_below="@+id/ednota2"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="5dp" />
+
+    <ImageButton
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        android:id="@+id/btCalcular"
+        android:src="@drawable/calcular"
+        android:textAlignment="center"
+        android:contentDescription="@string/_500"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_marginLeft="-22dp"
+        android:layout_marginRight="110dp"
+        android:layout_below="@+id/imageView5"
+        android:layout_toEndOf="@+id/textView19" />
+
+    <ImageButton
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        android:id="@+id/btLimpar"
+        android:src="@drawable/limpar"
+        android:textAlignment="center"
+        android:contentDescription="@string/_500"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_marginRight="-20dp"
+        android:layout_above="@+id/Txt_Resultado"
+        android:layout_toEndOf="@+id/textView21"
+        android:layout_marginLeft="-2dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Se o peso estiver incorreto, entre em contato com a gente."
+        android:id="@+id/textView20"
+        android:textColor="#ffffff"
+        android:textSize="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:text="Aqui!"
+        android:id="@+id/Btn_Contato"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/textView20"
+        android:background="#ffffff"
+        android:textColor="#000000"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:textSize="10dp"
+        android:onClick="contato"
+        />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/Txt_Resultado"
+        android:background="#cef1f9"
+        android:textColor="#03253a"
+        android:textSize="40dp"
+        android:textAlignment="center"
+        android:layout_below="@+id/btCalcular"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:inputType="number" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Média"
+        android:id="@+id/textView21"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/Txt_Resultado"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

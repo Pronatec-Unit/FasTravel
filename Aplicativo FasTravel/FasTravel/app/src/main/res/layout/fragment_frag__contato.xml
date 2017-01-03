@@ -1,0 +1,50 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="es.esy.fastravel.fastravel.Frag_Contato">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="307dp"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:id="@+id/edt_Mensagem"
+            android:layout_gravity="center"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="46dp"
+            android:hint="Mensagem..." />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:text="Receber resposta por E-mail."
+            android:id="@+id/resposta"
+            android:layout_below="@+id/edt_Mensagem"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:checked="true" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Enviar"
+            android:id="@+id/btn_Enviar"
+            android:layout_below="@+id/resposta"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:textStyle="bold"
+            android:background="#FF948302"
+            android:textColor="#ffffff" />
+    </RelativeLayout>
+
+</FrameLayout>

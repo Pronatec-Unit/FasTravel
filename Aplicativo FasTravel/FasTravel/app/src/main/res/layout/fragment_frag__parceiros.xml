@@ -1,0 +1,137 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="es.esy.fastravel.fastravel.Frag_Parceiros"
+    android:padding="5dp">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="right|bottom">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:id="@+id/imageView10"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/logo"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="&quot;Seu ponto de táxi&quot;"
+            android:id="@+id/textView14"
+            android:layout_marginTop="46dp"
+            android:layout_alignTop="@+id/imageView10"
+            android:layout_toRightOf="@+id/imageView10"
+            android:layout_toEndOf="@+id/imageView10" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="79 99999 9999"
+            android:id="@+id/textView15"
+            android:layout_below="@+id/textView14"
+            android:layout_toRightOf="@+id/imageView10"
+            android:layout_toEndOf="@+id/imageView10" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Horário de funcionamento: "
+            android:id="@+id/textView16"
+            android:layout_below="@+id/textView15"
+            android:layout_toRightOf="@+id/imageView10"
+            android:layout_toEndOf="@+id/imageView10" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Página do Facebook: "
+            android:id="@+id/textView17"
+            android:layout_below="@+id/textView16"
+            android:layout_toRightOf="@+id/imageView10"
+            android:layout_toEndOf="@+id/imageView10" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Email: seupontodetaxi@gmail.com"
+            android:id="@+id/textView18"
+            android:layout_below="@+id/textView17"
+            android:layout_toRightOf="@+id/imageView10"
+            android:layout_toEndOf="@+id/imageView10" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:id="@+id/imageView11"
+            android:src="@drawable/logo"
+            android:layout_below="@+id/imageView10"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="&quot;Seu ponto de táxi&quot;"
+            android:id="@+id/textView19"
+            android:layout_marginTop="52dp"
+            android:layout_alignTop="@+id/imageView11"
+            android:layout_toRightOf="@+id/imageView11"
+            android:layout_toEndOf="@+id/imageView11" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="79 99999 9999"
+            android:id="@+id/textView20"
+            android:layout_below="@+id/textView19"
+            android:layout_toRightOf="@+id/imageView11"
+            android:layout_toEndOf="@+id/imageView11" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Horário de funcionamento: "
+            android:id="@+id/textView21"
+            android:layout_below="@+id/textView20"
+            android:layout_toRightOf="@+id/imageView11"
+            android:layout_toEndOf="@+id/imageView11" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Página do Facebook: "
+            android:id="@+id/textView22"
+            android:layout_below="@+id/textView21"
+            android:layout_toRightOf="@+id/imageView11"
+            android:layout_toEndOf="@+id/imageView11" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Email: seupontodetaxi@gmail.com"
+            android:id="@+id/textView23"
+            android:layout_below="@+id/textView22"
+            android:layout_toRightOf="@+id/imageView11"
+            android:layout_toEndOf="@+id/imageView11" />
+
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6c6002</color>
+    <color name="colorPrimaryDark">#948302</color>
+    <color name="colorAccent">#000000</color>
+
+    <color name="clicado">#948302</color>
+    <color name="naoclicado">#6c6002</color>
+
+</resources>
