@@ -1,5 +1,6 @@
-## SimpleControl
-Facilitar o controle de acesso de atletas, treinos, equipamentos e instrutores em estabelecimentos de atividade física.
+## FasTravel
+Aplicativo que te ajuda a encontrar pontos de táxi, locadora de vans, locadora de ônibus e mototáxi mais próximos de você. Edit
+
 
 
 ## Equipe Pioneiros Java
