@@ -5,7 +5,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 /**
- * To work on unit tests, switch the Test Artifact in the Build Variants view.
+ * Para trabalhar em testes de unidade, alterne o Artefato de teste na vista Variantes de compilação.
  */
 public class ExampleUnitTest {
     @Test
